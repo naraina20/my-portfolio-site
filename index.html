@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>MY PORTFOLIO</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav grid__display">
+            <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="uil uil-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home grid__display" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hello, My name is <span class="home__title-color"><br>Naraina</span> And I'am a
+                    <br><span class="home__title-color">Mern Stack Developer</span><br>
+                </h1>
+
+                <!-- <a href="#work" class="button">Work</a> -->
+                <a href="/images//resume.pdf" class="button" download="/images//resume.pdf"><button type="download" class="downloadBtn">DOWNLOAD
+                    CV</button></a>
+            </div>
+
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/naraina-dewasi-272b19201/" target="_blank"
+                    class="home__social-icon"><i class="uil uil-linkedin-alt"></i></a>
+                <a href="https://www.instagram.com/___naraina20/" target="_blank" class="home__social-icon"><i
+                        class="uil uil-instagram-alt"></i></a>
+                <a href="https://github.com/naraina20" target="_blank" class="home__social-icon"><i
+                        class="uil uil-github"></i></a>
+            </div>
+
+            <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <mask id="mask0" mask-type="alpha">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                        <image class="home__blob-img" x="50" y="60" href="./images/profile.png" />
+                    </g>
+                </svg>
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section__title">About</h2>
+
+            <div class="about__container grid__display">
+                <div class="about__img">
+                    <img src="./images/aboutpic.jpg" alt="">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">I'm Naraina Dewasi</h2>
+                    <p class="about__text">Hello everyone, my name is Naraina, I have a self-learning approach and am also very passionate about web development. the goal is to achieve A good position by doing satisfying work in the IT field, firmly focused on completing the tasks in a fast-paced environment 
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--====== Qualification =======-->
+
+        <section>
+            <h2 class="section__title">Qualification</h2>
+            <span class="section__subtitle">My personal journey</span>
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button shadow button--flex" id="educationBtn">
+                        <i class="uil uil-graduation-cap qualification__icon"></i>
+                        Education
+                    </div>
+                    <div class="qualification__button button--flex" id="projectsBtn">
+                        <i class="uil uil-briefcase-alt qualification__icon"></i>
+                        Work
+                    </div>
+                </div>
+
+                <div class="qualification__section">
+                    <!--Education-->
+                    <div class="qualification__content qualification__active" data-content id="education">
+
+                        <!--section 1-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">
+                                    10th RBSE Pass Out
+                                </h3>
+                                <span class="qualification__subtitle">
+                                    Noble sr. sc. School, Falna(pali)
+                                </span>
+                                <div class="qualification__calendar">
+                                    <i class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                    </i>
+                                    2018-19
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!--section 2-->
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">
+                                    12th RBSE Pass Out
+                                </h3>
+                                <span class="qualification__subtitle">
+                                    Noble sr. sc. School, Falna(pali)
+                                </span>
+                                <div class="qualification__calendar">
+                                    <i class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                    </i>
+                                    2019-20
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!--section 3-->
+                        <div class="qualification__data">
+
+                            <div>
+                                <h3 class="qualification__title">
+                                    Full Stack Web Development Course
+                                </h3>
+                                <span class="qualification__subtitle">
+                                    UDEMY PLATFORM
+                                </span>
+                                <div class="qualification__calendar">
+                                    <i class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                    </i>
+                                    Feb-Jul, 2022
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!--section 4-->
+                        <div class="qualification__data">
+
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualification__line"></span> -->
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">
+                                    Bachelors's in Computer Application
+                                </h3>
+                                <span class="qualification__subtitle">
+                                    St. Willfred College, Jaipur
+                                </span>
+                                <div class="qualification__calendar">
+                                    <i class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                    </i>
+                                    Aug, 2022
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--work-->
+                    <div class="qualification__content" data-content id="projects">
+
+                        <!--project-1-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">
+                                    Frontend Dev [Internship]
+                                </h3>
+                                <span class="qualification__subtitle">
+                                    SharmaStore - a Ecommerce site
+                                    Jaipur
+                                </span>
+                                <div class="qualification__calendar">
+                                    <i class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                    </i>
+                                    June - August, 2022
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+
+            <div class="skills__container grid__display">
+                <div>
+                    <h2 class="skills__subtitle"><i class="uil uil-brackets-curly"></i> Frontend Developer</h2>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <div>
+                                <i class="uil uil-html5-alt"></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div>
+                                <i class="uil uil-css3-simple"></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div>
+                                <i class="uil uil-java-script"></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                        </div>
+                        <div class="skills__bar skills__html">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <div>
+                                <i class="uil uil-paint-tool"></i>
+                                <span class="skills__name">ReactJs</span>
+                            </div>
+                            <div>
+                                <i class="uil uil-paint-tool"></i>
+                                <span class="skills__name">Redux</span>
+                            </div>
+                        </div>
+                        <div class="skills__bar skills__react">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">75%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <div>
+                                <i class="uil uil-paint-tool"></i>
+                                <span class="skills__name">NextJs</span>
+                            </div>
+                        </div>
+                        <div class="skills__bar skills__next">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">60%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <div>
+                                <i class="uil uil-paint-tool"></i>
+                                <span class="skills__name">Material Ui</span>
+                            </div>
+                        </div>
+                        <div class="skills__bar skills__mui">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">55%</span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <div>
+                    <h2 class="skills__subtitle"><i class="uil uil-server-network"></i> Backend Developer</h2>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <div>
+                                <i class="uil uil-paint-tool"></i>
+                                <span class="skills__name">NodeJs</span>
+                            </div>
+                        </div>
+                        <div class="skills__bar skills__nodejs">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">70%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <div>
+                                <i class="uil uil-paint-tool"></i>
+                                <span class="skills__name">ExpressJs</span>
+                            </div>
+                        </div>
+                        <div class="skills__bar skills__expressjs">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">68%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <div>
+                                <i class="uil uil-paint-tool"></i>
+                                <span class="skills__name">MongoDb</span>
+                            </div>
+                        </div>
+                        <div class="skills__bar skills__mongodb">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">75%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="software">
+
+                <span><i class="uil uil-github"></i>&nbsp;Github</span>
+                <span><i class="uil uil-visual-studio"></i>&nbsp;VScode</span>
+                <span><i class="uil uil-adobe"></i>&nbsp;Photoshop</span>
+
+            </div>
+        </section>
+
+        <!--===== WORK =====-->
+        <section class="work section" id="work">
+            <h2 class="section__title">Work</h2>
+
+            <a href="https://ecommercesite-mern.herokuapp.com/" target="_blank">
+                <div class="carousel owl-carousel">
+                    <div class="card">
+                        <div class="box">
+                            <img src="./images/firstproject.png" alt="">
+                            <div class="text">Ecommerce Site</div>
+                            <p>This is an e-commerce site built with ReactJs & NodeJs </p>
+                        </div>
+                    </div>
+            </a>
+            <a href="https://group-chat-ap.herokuapp.com/" target="_blank">
+                <div class="card">
+                    <div class="box">
+                        <img src="./images/chatapp.png" alt="">
+                        <div class="text">Chat App</div>
+                        <p>This is Group Chat app built with socket io library</p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://sharma-store-app.vercel.app/" target="_blank">
+                <div class="card">
+                    <div class="box">
+                        <img src="./images/sharmastore.png" alt="">
+                        <div class="text">Sharma Store</div>
+                        <p style="font-size: 0.8rem;">This is my professional project during internship I worked on it
+                            as frontend developer</p>
+                    </div>
+                </div>
+                <a href="https://naraina20.github.io/recipe-app/" target="_blank">
+                    <div class="card">
+                        <div class="box">
+                            <img src="./images/recipeapp.png" alt="">
+                            <div class="text">Recipe App</div>
+                            <p>Now you can make anything you want to eat with Recipe App </p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://uclzkseqwbtbxlzdzw29kg.on.drv.tw/www.sportify.com/" target="_blank">
+                    <div class="card">
+                        <div class="box">
+                            <img src="./images/sportify.png" alt="">
+                            <div class="text">Spotify</div>
+                            <p>Now you can listen best music on Spotify app</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://todos-list-app-20.herokuapp.com/" target="_blank">
+                    <div class="card">
+                        <div class="box">
+                            <img src="./images/todolist.png" alt="">
+                            <div class="text">Todos List</div>
+                            <p>Write your important work in this Todos List App</p>
+                        </div>
+                    </div>
+                </a>
+                </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact</h2>
+
+            <div class="contact__container grid__display">
+                <form action="https://formspree.io/f/meqdelwp" method="POST" class="contact__form">
+                    <input type="text" placeholder="Name" name="name" required class="contact__input" />
+                    <input type="mail" placeholder="Email" name="email" required class="contact__input" />
+                    <textarea name="message" placeholder="Tell me how can I help you..." cols="0" rows="10" required class="contact__input"></textarea>
+                    <button type="submit"  class="contact__button button">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Naraina Dewasi</p>
+        <div class="footer__social">
+            <a href="https://www.linkedin.com/in/naraina-dewasi-272b19201/" target="_blank" class="footer__icon"><i
+                    class="uil uil-linkedin-alt"></i></a>
+            <a href="https://www.instagram.com/___naraina20/" target="_blank" class="footer__icon"><i
+                    class="uil uil-instagram-alt"></i></a>
+            <a href="https://github.com/naraina20" target="_blank" class="footer__icon"><i
+                    class="uil uil-github"></i></a>
+        </div>
+        <p class="footer__copy">&#169; My Portfolio Site. All rigths reserved</p>
+    </footer>
+
+    <div class="theme_change"><i id="theme_btn" class="uil uil-moon"></i></div>
+    <div class="moveToUp"><a href="#"><i class="uil uil-angle-up"></i></a></div>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
