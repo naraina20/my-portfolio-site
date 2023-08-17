@@ -398,28 +398,28 @@ section {
 }
 
 .skills__html {
-  width: 85%;
+  width: 100%;
 }
 
 .skills__react {
-  width: 75%;
+  width: 100%;
 }
 .skills__next {
-  width: 60%;
+  width: 100%;
 }
 
 .skills__mui {
-  width: 55%;
+  width: 100%;
 }
 
 .skills__nodejs {
-  width: 70%;
+  width: 100%;
 }
 .skills__expressjs {
-  width: 68%;
+  width: 100%;
 }
 .skills__mongodb {
-  width: 75%;
+  width: 100%;
 }
 
 .software {
