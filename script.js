@@ -125,3 +125,14 @@ sr.reveal(".home__img, .about__subtitle, .about__text, .carousel", {
 });
 sr.reveal(".home__social-icon", { interval: 200 });
 sr.reveal(".skills__data,box,.qualification__container, .qualification__tabs, .work__img, .contact__input", { interval: 200 });
+
+
+/* Clear form after submission */
+
+function clearForm(event){
+  event.preventDefault(); // Prevent the form from actually submitting (optional if needed)
+  
+  const form = document.getElementById('formContact');
+  form.reset(); // This resets all fields to their default values (initial state)
+  
+}

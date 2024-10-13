@@ -451,7 +451,7 @@
             <h2 class="section__title">Contact</h2>
 
             <div class="contact__container grid__display">
-                <form action="https://formspree.io/f/meqdelwp" method="POST" class="contact__form">
+                <form action="https://formspree.io/f/meqdelwp" id="formContact" method="POST" class="contact__form" onsubmit="clearForm()">
                     <input type="text" placeholder="Name" name="name" required class="contact__input" />
                     <input type="mail" placeholder="Email" name="email" required class="contact__input" />
                     <textarea name="message" placeholder="Tell me how can I help you..." cols="0" rows="10" required class="contact__input"></textarea>
